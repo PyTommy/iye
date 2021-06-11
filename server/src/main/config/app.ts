@@ -1,7 +1,7 @@
-import express from 'express';
-import setupDefaultMiddleware from './setupDefaultMiddleware';
+import express from 'express'
+import setupDefaultMiddleware from './setupDefaultMiddleware'
 
-const app = express();
-setupDefaultMiddleware(app);
+const app = express()
+setupDefaultMiddleware(app)
 
-export default app;
+export default app

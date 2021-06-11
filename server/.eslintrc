@@ -1,0 +1,11 @@
+{
+  "env": { "node": true },
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": { "ecmaVersion": 2019, "project": "./tsconfig.json" },
+  "rules": {}
+}
