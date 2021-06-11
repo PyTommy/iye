@@ -1,13 +1,12 @@
 {
   "testEnvironment": "node",
-  "roots": ["<rootDir>/tests"],
+  "roots": ["<rootDir>/src"],
   "transform": {
     "^.+\\.(ts|tsx)?$": "ts-jest"
   },
-  "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(js|ts|tsx)?$",
+  "testRegex": "(/__tests__/.*|(\\.|/)(spec|test))\\.(js|ts|tsx)?$",
   "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
   "moduleNameMapper": {
-    "^@/(.*)": "<rootDir>/src/$1",
-    "^@tests/(.*)": "<rootDir>/tests/$1"
+    "^@/(.*)": "<rootDir>/src/$1"
   }
 }

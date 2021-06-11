@@ -9,13 +9,12 @@
     "allowJs": true,
     "resolveJsonModule": true,
     "baseUrl": ".",
-    "rootDirs": ["src", "tests"],
+    "rootDirs": ["src"],
     "outDir": "dist",
     "paths": {
-      "@tests/*": ["../tests/*"],
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src/**/*", "tests/**/*"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules"]
 }
